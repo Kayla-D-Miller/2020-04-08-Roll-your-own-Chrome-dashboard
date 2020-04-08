@@ -1,0 +1,58 @@
+* {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+/* Style the Date and Time widget */
+#datetime {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: center;
+    margin: auto;
+    padding: 5px;
+}
+
+/* Style the notepad */
+#notepad {
+    margin-top: 10px;
+    background-color: lightyellow;
+}
+
+/* Style the Notepad Button */
+#savebtn {
+    background-color: limegreen;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/*Style the lists */
+ul {
+    list-style-type: none;
+}
+
+/* Style the links */
+a {
+    text-decoration: none;
+    color: red;
+}
+a:visited {
+    color: red;
+}
+
+/*Style the icons */
+.icon {
+    height: 75px;
+    width: 100px;
+}
+
+/*overwrite styles for habitica icon */
+#habitica {
+    height: 50px;
+}
+#stack {
+    height: 60px;
+}
