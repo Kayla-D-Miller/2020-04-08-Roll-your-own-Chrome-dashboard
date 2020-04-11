@@ -3,6 +3,6 @@
     "name": "Kayla's New Tab Override",
     "version": "1.0",
     "chrome_url_overrides" : {
-      "newtab": "newtab.html"
+      "newtab": "html/newtab.html"
     }
   }
