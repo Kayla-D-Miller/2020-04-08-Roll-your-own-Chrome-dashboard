@@ -32,16 +32,16 @@ document.getElementById('clearbtn').addEventListener("click", clearNote);
      //parse the JSON string back to JS object
      var retrievedObj = JSON.parse(storedObj);
     // check to see if the retrieved note is equal to a blank string or not null or undefined
-    if(retrievedObj.note === '' || retrievedObj.note !== null || retrievedObj.note == undefined) {
+    if(retrievedObj === '' || retrievedObj !== null || retrievedObj == undefined) {
 
       // display contents of note
       document.getElementById('notepad').innerHTML = retrievedObj.note;
 
       // if the note is null set the note to a predefined string!
-    } else if (retrievedObj.note === null) {
+    } else if (retrievedObj === null) {
       
       //set the string
-      retrievedObj.note = "Write a note here!";
+      retrievedObj = "Write a note here!";
 
       //put string into the notepad
       document.getElementById('notead').innerHTML = retrievedObj.note;

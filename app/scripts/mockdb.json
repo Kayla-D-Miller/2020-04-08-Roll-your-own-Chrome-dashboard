@@ -1,5 +1,3 @@
-[
-    {
-        "note1": "This is my note."
-    }
-]
+{
+     "note": "This is my note."
+}
